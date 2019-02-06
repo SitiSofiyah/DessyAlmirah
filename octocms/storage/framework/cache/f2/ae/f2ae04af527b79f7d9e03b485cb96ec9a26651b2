@@ -1,0 +1,78 @@
+1549429663a:1:{s:28:"blog/komunikasiinteraksi.htm";a:9:{s:8:"fileName";s:28:"blog/komunikasiinteraksi.htm";s:7:"content";s:2164:"title = "KomunikasiInteraksi"
+url = "/blog/komunikasiinteraksi"
+layout = "default"
+is_hidden = 0
+==
+<!--************************************
+				Main Start
+		*************************************-->
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 pull-right">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-detailpage tg-newsdetailpage">
+                            <article class="tg-themepost tg-newspost">
+                                <div class="tg-themepostcontent">
+                                    <div class="tg-themeposttitle">
+                                        <h1>Komunikasi dan Interaksi CalculatorGUI dan CalcLog</h1>
+                                    </div>
+                                </div>
+                                <figure class="tg-featuredimg"><img src="{{'assets/images/campus.jpg'|theme}}" alt="image description"></figure>
+                                <div class="tg-description">
+                                    <p>Pada bagian ini akan diuraikan bagaimana interaksi event-driven pada komponen-komponen swing dan penerapan inner class untuk Listener setiap object swing. Bagian interaksi ini cukup rumit untuk dijelaskan. Baiklah kita mulai dari Peran masing-masing yang berinteraksi. Konsep GFT memberikan aturan bagaimana interaksi antar 2 buah object atau lebih. Perhatikan bahwa agar fungsi aplikasi kalkulator tersebut lengkap maka interaksi antara object CalculatorGUI dan object CalcLogic harus dinamis dan jelas. Relasi secara grammatical (sisi analisa bahasa dari GFT) kedua class tersebut adalah:</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                {% partial 'sidebar_left.htm' %}
+
+
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:5:"mtime";i:1548949580;s:6:"markup";s:2059:"<!--************************************
+				Main Start
+		*************************************-->
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 pull-right">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-detailpage tg-newsdetailpage">
+                            <article class="tg-themepost tg-newspost">
+                                <div class="tg-themepostcontent">
+                                    <div class="tg-themeposttitle">
+                                        <h1>Komunikasi dan Interaksi CalculatorGUI dan CalcLog</h1>
+                                    </div>
+                                </div>
+                                <figure class="tg-featuredimg"><img src="{{'assets/images/campus.jpg'|theme}}" alt="image description"></figure>
+                                <div class="tg-description">
+                                    <p>Pada bagian ini akan diuraikan bagaimana interaksi event-driven pada komponen-komponen swing dan penerapan inner class untuk Listener setiap object swing. Bagian interaksi ini cukup rumit untuk dijelaskan. Baiklah kita mulai dari Peran masing-masing yang berinteraksi. Konsep GFT memberikan aturan bagaimana interaksi antar 2 buah object atau lebih. Perhatikan bahwa agar fungsi aplikasi kalkulator tersebut lengkap maka interaksi antara object CalculatorGUI dan object CalcLogic harus dinamis dan jelas. Relasi secara grammatical (sisi analisa bahasa dari GFT) kedua class tersebut adalah:</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                {% partial 'sidebar_left.htm' %}
+
+
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:4:"code";N;s:5:"title";s:19:"KomunikasiInteraksi";s:3:"url";s:25:"/blog/komunikasiinteraksi";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

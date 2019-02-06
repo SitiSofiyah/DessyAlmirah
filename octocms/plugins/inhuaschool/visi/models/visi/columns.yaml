@@ -1,0 +1,16 @@
+columns:
+    visi:
+        label: Visi
+        type: text
+    misi:
+        label: Misi
+        type: text
+    sasaran:
+        label: Sasaran
+        type: text
+    kompetensi:
+        label: Kompetensi
+        type: text
+    operational:
+        label: Operational
+        type: text

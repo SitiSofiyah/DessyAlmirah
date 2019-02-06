@@ -1,0 +1,10 @@
+name: Visi
+form: $/inhuaschool/visi/models/visi/fields.yaml
+modelClass: Inhuaschool\Visi\Models\Visi
+defaultRedirect: inhuaschool/visi/visi
+create:
+    redirect: 'inhuaschool/visi/visi/update/:id'
+    redirectClose: inhuaschool/visi/visi
+update:
+    redirect: inhuaschool/visi/visi
+    redirectClose: inhuaschool/visi/visi

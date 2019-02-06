@@ -1,0 +1,11 @@
+plugin:
+    name: 'inhuaschool.galerry::lang.plugin.name'
+    description: 'inhuaschool.galerry::lang.plugin.description'
+    author: inhuaschool
+    icon: oc-icon-camera
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Galerry
+        url: /inhuaschool/galerry/galerry
+        icon: icon-camera

@@ -1,0 +1,11 @@
+plugin:
+    name: 'inhuaschool.visi::lang.plugin.name'
+    description: 'inhuaschool.visi::lang.plugin.description'
+    author: inhuaschool
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Visi
+        url: /inhuaschool/visi/visi
+        icon: icon-life-ring

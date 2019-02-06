@@ -1,0 +1,13 @@
+columns:
+    welcome:
+        label: Welcome
+        type: text
+    layanan:
+        label: Layanan
+        type: text
+    info:
+        label: Info
+        type: text
+    pesan:
+        label: Pesan
+        type: text

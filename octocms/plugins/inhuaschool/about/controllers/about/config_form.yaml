@@ -1,0 +1,10 @@
+name: About
+form: $/inhuaschool/about/models/about/fields.yaml
+modelClass: Inhuaschool\About\Models\About
+defaultRedirect: inhuaschool/about/about
+create:
+    redirect: 'inhuaschool/about/about/update/:id'
+    redirectClose: inhuaschool/about/about
+update:
+    redirect: inhuaschool/about/about
+    redirectClose: inhuaschool/about/about

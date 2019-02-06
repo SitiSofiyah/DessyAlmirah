@@ -1,0 +1,386 @@
+1549429663a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:13241:"title = "Demonstration"
+url = "/"
+layout = "default"
+is_hidden = 0
+==
+{% partial 'slider' %}
+
+<!--************************************
+        Main Start
+*************************************-->
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                    <div id="tg-content" class="tg-content">
+                        <section class="tg-sectionspace tg-haslayout">
+                            <div class="tg-shortcode tg-welcomeandgreeting">
+                                <div class="tg-shortcodetextbox">
+                                    <h2>Welcome to ISEA</h2>
+                                    <div class="tg-description">
+                                        <p>ISEA (Inhuaschool Software Engineering Academic) adalah suatu Konsep Inovasi Pendidikan IT Indonesia yang fokus pada kompetensi skill di bidang Rekayasa Perangkat Lunak.</p>
+                                    </div>
+                                    <span class="tg-name">- Nurudin Santoso -</span>
+                            </div>
+                        </section>
+                        <section class="tg-sectionspace tg-haslayout">
+                            <div class="tg-latestnews">
+                                <div class="tg-borderheading">
+                                    <h2>Inovasi</h2>
+                                </div>
+                                <div id="tg-latestnewsslider" class="tg-latestnewsslider owl-carousel tg-posts">
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Java Fundamental Dengan Metode Grammatical Fast Track (GFT).</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p> Pada taraf level 1 Blueprint ISEA menerapkan pemahanan dasar-dasar Software Engineering yang praktis... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Grammatical Fast Track</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Merupakan metodologi yang diterapkan pada ISEA Level 1 yaitu "Java Fundamental dengan Metode Grammatical Fast Track (GFT)...<a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Invites Application for Admission in Designing Program</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Consectetur adipisicing elit sed do eiusmod tempor inunt labore... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Allotment of Hostel Accommodation 2017!</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Consectetur adipisicing elit sed do eiusmod tempor inunt labore... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Notification of Mid Term Examinations</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Consectetur adipisicing elit sed do eiusmod tempor inunt labore... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Invites Application for Admission in Designing Program</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Consectetur adipisicing elit sed do eiusmod tempor inunt labore... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="tg-btnsbox">
+                                    <a class="tg-btn" href="">view all news</a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="tg-sectionspace tg-haslayout">
+                            <div class="row">
+                            <div>
+                                
+                                    <div class="tg-widget tg-widgetquicklinks">
+                                        <div class="tg-borderheading">
+                                            <h2>Testimonial</h2>
+                                        </div>
+                                        <div class="tg-widgetcontent">
+                                            <div class="testimonial-content">
+                                        <i class="icon-quotes-left"></i>
+                                            <p>Dengan Grammatical Fast Track, belajar programming menjadi lebih mudah.</p>
+                                        </div>
+                                        <div class="testimonial-author gdl-divider">
+                                            <span class="testimonial-author-name">Yoga, </span><span class="testimonial-author-position">Mahasiswa</span>
+                                        </div>
+                                            
+                                        <div class="testimonial-content">
+                                        <i class="icon-quotes-left"></i>
+                                            <p>Coding menjadi lebih mudah dan terstruktur, terima kasih ISEA.</p>
+                                        </div>
+                                        <div class="testimonial-author gdl-divider">
+                                            <span class="testimonial-author-name">Johan, </span><span class="testimonial-author-position">Programmer</span>
+                                        </div>
+                                
+                                        <div class="testimonial-content">
+                                        <i class="icon-quotes-left"></i>
+                                            <p>Apapun bahasa pemrogramannya GFT solusinya.</p>
+                                        </div>
+                                        <div class="testimonial-author gdl-divider">
+                                            <span class="testimonial-author-name">Achmad, </span><span class="testimonial-author-position">Programmer</span>
+                                        </div>
+                                
+                                        <div class="testimonial-content">
+                                        <i class="icon-quotes-left"></i>
+                                            <p>GFT memang cara cepat belajar java.</p>
+                                        </div>
+                                        <div class="testimonial-author gdl-divider">
+                                            <span class="testimonial-author-name">Abraham, </span><span class="testimonial-author-position">Mahasiswa</span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                {% partial 'sidebar' %}
+
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:5:"mtime";i:1548998603;s:6:"markup";s:13166:"{% partial 'slider' %}
+
+<!--************************************
+        Main Start
+*************************************-->
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                    <div id="tg-content" class="tg-content">
+                        <section class="tg-sectionspace tg-haslayout">
+                            <div class="tg-shortcode tg-welcomeandgreeting">
+                                <div class="tg-shortcodetextbox">
+                                    <h2>Welcome to ISEA</h2>
+                                    <div class="tg-description">
+                                        <p>ISEA (Inhuaschool Software Engineering Academic) adalah suatu Konsep Inovasi Pendidikan IT Indonesia yang fokus pada kompetensi skill di bidang Rekayasa Perangkat Lunak.</p>
+                                    </div>
+                                    <span class="tg-name">- Nurudin Santoso -</span>
+                            </div>
+                        </section>
+                        <section class="tg-sectionspace tg-haslayout">
+                            <div class="tg-latestnews">
+                                <div class="tg-borderheading">
+                                    <h2>Inovasi</h2>
+                                </div>
+                                <div id="tg-latestnewsslider" class="tg-latestnewsslider owl-carousel tg-posts">
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Java Fundamental Dengan Metode Grammatical Fast Track (GFT).</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p> Pada taraf level 1 Blueprint ISEA menerapkan pemahanan dasar-dasar Software Engineering yang praktis... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Grammatical Fast Track</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Merupakan metodologi yang diterapkan pada ISEA Level 1 yaitu "Java Fundamental dengan Metode Grammatical Fast Track (GFT)...<a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Invites Application for Admission in Designing Program</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Consectetur adipisicing elit sed do eiusmod tempor inunt labore... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Allotment of Hostel Accommodation 2017!</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Consectetur adipisicing elit sed do eiusmod tempor inunt labore... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Notification of Mid Term Examinations</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Consectetur adipisicing elit sed do eiusmod tempor inunt labore... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="item">
+                                        <article class="tg-themepost tg-newspost">
+                                            <figure class="tg-featuredimg">
+                                                <a href="">
+                                                    <img src="{{'assets/images/campus.jpg'|theme}}" alt="image description">
+                                                </a>
+                                            </figure>
+                                            <div class="tg-themepostcontent">
+                                                <div class="tg-themeposttitle">
+                                                    <h3><a href="">Invites Application for Admission in Designing Program</a></h3>
+                                                </div>
+                                                <div class="tg-description">
+                                                    <p>Consectetur adipisicing elit sed do eiusmod tempor inunt labore... <a href="">Read More</a></p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <div class="tg-btnsbox">
+                                    <a class="tg-btn" href="">view all news</a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="tg-sectionspace tg-haslayout">
+                            <div class="row">
+                            <div>
+                                
+                                    <div class="tg-widget tg-widgetquicklinks">
+                                        <div class="tg-borderheading">
+                                            <h2>Testimonial</h2>
+                                        </div>
+                                        <div class="tg-widgetcontent">
+                                            <div class="testimonial-content">
+                                        <i class="icon-quotes-left"></i>
+                                            <p>Dengan Grammatical Fast Track, belajar programming menjadi lebih mudah.</p>
+                                        </div>
+                                        <div class="testimonial-author gdl-divider">
+                                            <span class="testimonial-author-name">Yoga, </span><span class="testimonial-author-position">Mahasiswa</span>
+                                        </div>
+                                            
+                                        <div class="testimonial-content">
+                                        <i class="icon-quotes-left"></i>
+                                            <p>Coding menjadi lebih mudah dan terstruktur, terima kasih ISEA.</p>
+                                        </div>
+                                        <div class="testimonial-author gdl-divider">
+                                            <span class="testimonial-author-name">Johan, </span><span class="testimonial-author-position">Programmer</span>
+                                        </div>
+                                
+                                        <div class="testimonial-content">
+                                        <i class="icon-quotes-left"></i>
+                                            <p>Apapun bahasa pemrogramannya GFT solusinya.</p>
+                                        </div>
+                                        <div class="testimonial-author gdl-divider">
+                                            <span class="testimonial-author-name">Achmad, </span><span class="testimonial-author-position">Programmer</span>
+                                        </div>
+                                
+                                        <div class="testimonial-content">
+                                        <i class="icon-quotes-left"></i>
+                                            <p>GFT memang cara cepat belajar java.</p>
+                                        </div>
+                                        <div class="testimonial-author gdl-divider">
+                                            <span class="testimonial-author-name">Abraham, </span><span class="testimonial-author-position">Mahasiswa</span>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                {% partial 'sidebar' %}
+
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

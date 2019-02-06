@@ -1,0 +1,4 @@
+title: Visi
+modelClass: Inhuaschool\Visi\Models\Visi
+toolbar:
+    buttons: reorder_toolbar

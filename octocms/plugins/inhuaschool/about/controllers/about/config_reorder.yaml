@@ -1,0 +1,4 @@
+title: About
+modelClass: Inhuaschool\About\Models\About
+toolbar:
+    buttons: reorder_toolbar

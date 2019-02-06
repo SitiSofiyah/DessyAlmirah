@@ -1,0 +1,7 @@
+columns:
+    judul:
+        label: Judul
+        type: text
+    gambar:
+        label: Gambar
+        type: text

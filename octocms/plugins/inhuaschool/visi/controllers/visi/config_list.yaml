@@ -1,0 +1,12 @@
+list: $/inhuaschool/visi/models/visi/columns.yaml
+modelClass: Inhuaschool\Visi\Models\Visi
+title: Visi
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'inhuaschool/visi/visi/update/:id'

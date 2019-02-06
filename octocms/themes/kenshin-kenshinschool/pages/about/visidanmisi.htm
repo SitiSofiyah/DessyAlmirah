@@ -1,0 +1,111 @@
+title = "aboutvisi"
+url = "/about/visidanmisi"
+layout = "default"
+is_hidden = 0
+
+[builderList]
+modelClass = "Inhuaschool\Visi\Models\Visi"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "visi"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<!--************************************
+				Main Start
+		*************************************-->
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-sm-12">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-detailpage tg-newsdetailpage">
+                            <article class="tg-themepost tg-newspost">
+                                <div class="tg-themepostcontent">
+                                    <div class="tg-themeposttitle">
+                                        <h1>VISI MISI ISEA</h1>
+                                    </div>
+                                </div>
+                                <figure class="tg-featuredimg"><img src="{{'assets/images/themepost/img-19.jpg'|theme}}" width="1200px" height="600px" alt="image description"></figure>
+                                <div class="tg-description">
+                                 <div class="tg-borderheading">
+                                    <h2>Visi</h2>
+                                 </div>
+                                 {% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+
+<ul class="record-list">
+    {% for record in records %}
+        
+            {# Use spaceless tag to remove spaces inside the A tag. #}
+            {% spaceless %}
+                {% if detailsPage %}
+                    <a href="{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}">
+                {% endif %}
+                
+                {{record.visi|raw}}
+                
+                <div class="tg-borderheading">
+                    <h2>Misi</h2>
+                </div>
+                {{record.misi|raw}}
+                
+                <div class="tg-borderheading">
+                    <h2>Sasaran</h2>
+                </div>
+                {{record.sasaran|raw}}
+                
+                <div class="tg-borderheading">
+                    <h2>Kompetensi Kurikulum</h2>
+                </div>
+                {{record.kompetensi|raw}}
+
+                <div class="tg-borderheading">
+                    <h2>Operational Management</h2>
+                </div>
+                {{record.operational|raw}}
+
+                {% if detailsPage %}
+                    </a>
+                {% endif %}
+            {% endspaceless %}
+
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</ul>
+
+{% if records.lastPage > 1 %}
+    <ul class="pagination">
+        {% if records.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage-1) }) }}">&larr; Prev</a></li>
+        {% endif %}
+
+        {% for page in 1..records.lastPage %}
+            <li class="{{ records.currentPage == page ? 'active' : null }}">
+                <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+            </li>
+        {% endfor %}
+
+        {% if records.lastPage > records.currentPage %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage+1) }) }}">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+{% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->

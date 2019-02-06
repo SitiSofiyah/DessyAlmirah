@@ -1,0 +1,78 @@
+1549429663a:1:{s:17:"blog/snapshop.htm";a:9:{s:8:"fileName";s:17:"blog/snapshop.htm";s:7:"content";s:1998:"title = "snapshop"
+url = "/blog/snapshop"
+layout = "default"
+is_hidden = 0
+==
+<!--************************************
+				Main Start
+		*************************************-->
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 pull-right">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-detailpage tg-newsdetailpage">
+                            <article class="tg-themepost tg-newspost">
+                                <div class="tg-themepostcontent">
+                                    <div class="tg-themeposttitle">
+                                        <h1>Finishing dan Snapshop Kalkulator</h1>
+                                    </div>
+                                </div>
+                                <figure class="tg-featuredimg"><img src="{{'assets/images/campus.jpg'|theme}}" alt="image description"></figure>
+                                <div class="tg-description">
+                                    <p>Perlu diperhatikan bahwa penggunaan inner class dapat diinsta secara langsung oleh outer class (class induknya). Mengapa dibutuhkan inner class (NumberListener, OpListener, dan clearListener) bisa kah dibuat class tersendiri? Di buat class tersendiri bisa, yang jadi pertimbangan dijadikan inner class hanyalah modular sj karena fungsi tersebut hanya untuk kalkulator maka di ringkas dalam innner class CalculatorGUI. Berikut snapshot yang barusan saya jalankan :</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                {% partial 'sidebar_left.htm' %}
+
+
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:5:"mtime";i:1548949482;s:6:"markup";s:1915:"<!--************************************
+				Main Start
+		*************************************-->
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 pull-right">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-detailpage tg-newsdetailpage">
+                            <article class="tg-themepost tg-newspost">
+                                <div class="tg-themepostcontent">
+                                    <div class="tg-themeposttitle">
+                                        <h1>Finishing dan Snapshop Kalkulator</h1>
+                                    </div>
+                                </div>
+                                <figure class="tg-featuredimg"><img src="{{'assets/images/campus.jpg'|theme}}" alt="image description"></figure>
+                                <div class="tg-description">
+                                    <p>Perlu diperhatikan bahwa penggunaan inner class dapat diinsta secara langsung oleh outer class (class induknya). Mengapa dibutuhkan inner class (NumberListener, OpListener, dan clearListener) bisa kah dibuat class tersendiri? Di buat class tersendiri bisa, yang jadi pertimbangan dijadikan inner class hanyalah modular sj karena fungsi tersebut hanya untuk kalkulator maka di ringkas dalam innner class CalculatorGUI. Berikut snapshot yang barusan saya jalankan :</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                {% partial 'sidebar_left.htm' %}
+
+
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:4:"code";N;s:5:"title";s:8:"snapshop";s:3:"url";s:14:"/blog/snapshop";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table inhuaschool_home_'
+    - builder_table_create_inhuaschool_home_.php
+1.0.3:
+    - 'Updated table inhuaschool_home_'
+    - builder_table_update_inhuaschool_home_.php
+1.0.4:
+    - 'Drop table inhuaschool_home_'
+    - builder_table_delete_inhuaschool_home_.php
+1.0.5:
+    - 'Created table inhuaschool_home_'
+    - builder_table_create_inhuaschool_home__2.php

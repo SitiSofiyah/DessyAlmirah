@@ -1,0 +1,11 @@
+fields:
+    arti:
+        label: 'Rich editor_arti'
+        size: tiny
+        span: auto
+        type: richeditor
+    istilah:
+        label: 'Rich editor_istilah'
+        size: tiny
+        span: auto
+        type: richeditor

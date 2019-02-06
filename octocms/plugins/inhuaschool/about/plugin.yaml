@@ -1,0 +1,15 @@
+plugin:
+    name: 'inhuaschool.about::lang.plugin.name'
+    description: 'inhuaschool.about::lang.plugin.description'
+    author: inhuaschool
+    icon: oc-icon-chain
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: About
+        url: /inhuaschool/about/about
+        icon: icon-chain
+    main-menu-item2:
+        label: Aboutvisi
+        url: /inhuaschool/aboutvisi/aboutvisi
+        icon: icon-chain

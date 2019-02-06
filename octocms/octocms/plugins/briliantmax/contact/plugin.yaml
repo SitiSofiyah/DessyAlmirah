@@ -1,0 +1,6 @@
+plugin:
+    name: 'briliantmax.contact::lang.plugin.name'
+    description: 'briliantmax.contact::lang.plugin.description'
+    author: Briliantmax
+    icon: oc-icon-adjust
+    homepage: ''

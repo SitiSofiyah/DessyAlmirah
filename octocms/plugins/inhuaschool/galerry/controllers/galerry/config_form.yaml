@@ -1,0 +1,10 @@
+name: Galerry
+form: $/inhuaschool/galerry/models/galerry/fields.yaml
+modelClass: Inhuaschool\Galerry\Models\Galerry
+defaultRedirect: inhuaschool/galerry/galerry
+create:
+    redirect: 'inhuaschool/galerry/galerry/update/:id'
+    redirectClose: inhuaschool/galerry/galerry
+update:
+    redirect: inhuaschool/galerry/galerry
+    redirectClose: inhuaschool/galerry/galerry

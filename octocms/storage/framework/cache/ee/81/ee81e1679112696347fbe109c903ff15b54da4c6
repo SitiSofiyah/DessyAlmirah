@@ -1,0 +1,37 @@
+1549429664a:1:{s:10:"slider.htm";a:6:{s:8:"fileName";s:10:"slider.htm";s:7:"content";s:646:"[viewBag]
+==
+<!--************************************
+				Home Slider Start
+		*************************************-->
+<div class="clearfix"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="item" align="center">
+                <figure>
+                    <img src="{{ 'assets/images/isea.jpg'|theme}}" alt="image description" width="800px" height="300px">
+                </figure>
+        </div>
+        </div>
+    </div>
+</div>
+<!--************************************
+        Home Slider End
+*************************************-->";s:5:"mtime";i:1548998128;s:6:"markup";s:631:"<!--************************************
+				Home Slider Start
+		*************************************-->
+<div class="clearfix"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="item" align="center">
+                <figure>
+                    <img src="{{ 'assets/images/isea.jpg'|theme}}" alt="image description" width="800px" height="300px">
+                </figure>
+        </div>
+        </div>
+    </div>
+</div>
+<!--************************************
+        Home Slider End
+*************************************-->";s:4:"code";N;s:7:"viewBag";a:0:{}}}

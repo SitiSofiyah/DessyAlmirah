@@ -1,0 +1,14 @@
+fields:
+    gambar:
+        label: 'File upload'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    judul:
+        label: Text
+        span: auto
+        type: text

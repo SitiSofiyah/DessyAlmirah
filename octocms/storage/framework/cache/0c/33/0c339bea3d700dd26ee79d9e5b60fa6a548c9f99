@@ -1,0 +1,145 @@
+1549429664a:1:{s:11:"sidebar.htm";a:7:{s:8:"fileName";s:11:"sidebar.htm";s:7:"content";s:2697:"[viewBag]
+
+[builderList]
+modelClass = "Inhuaschool\Home\Models\Home"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "info"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+    <aside id="tg-sidebar" class="tg-sidebar">
+       
+        <div class="tg-widget tg-widgetnoticeboard">
+            <div class="tg-widgettitle">
+                <h3>Layanan ISEA</h3>
+            </div>
+            &nbsp;&nbsp;<a href="">ISEA Comunity</a>
+        </div>
+         <div class="tg-widget tg-widgetnoticeboard">
+            <div class="tg-widgettitle">
+                <h3>Info ISEA</h3>
+            </div>
+            
+            <div>
+            {% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+
+<ul class="record-list">
+    {% for record in records %}
+        
+            {# Use spaceless tag to remove spaces inside the A tag. #}
+            {% spaceless %}
+                {% if detailsPage %}
+                    <a href="{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}">
+                {% endif %}
+
+                {{ record.info|raw }}
+                    <div class="tg-widgettitle">
+                        <h3>Pesan Bijak</h3>
+                    </div>
+                    {{ record.pesan|raw }}
+
+                {% if detailsPage %}
+                    </a>
+                {% endif %}
+            {% endspaceless %}
+        
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</ul>
+
+{% if records.lastPage > 1 %}
+    <ul class="pagination">
+        {% if records.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage-1) }) }}">&larr; Prev</a></li>
+        {% endif %}
+
+        {% for page in 1..records.lastPage %}
+            <li class="{{ records.currentPage == page ? 'active' : null }}">
+                <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+            </li>
+        {% endfor %}
+
+        {% if records.lastPage > records.currentPage %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage+1) }) }}">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+{% endif %}
+        </div>
+    </aside>
+</div>";s:5:"mtime";i:1549005737;s:6:"markup";s:2440:"<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+    <aside id="tg-sidebar" class="tg-sidebar">
+       
+        <div class="tg-widget tg-widgetnoticeboard">
+            <div class="tg-widgettitle">
+                <h3>Layanan ISEA</h3>
+            </div>
+            &nbsp;&nbsp;<a href="">ISEA Comunity</a>
+        </div>
+         <div class="tg-widget tg-widgetnoticeboard">
+            <div class="tg-widgettitle">
+                <h3>Info ISEA</h3>
+            </div>
+            
+            <div>
+            {% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+
+<ul class="record-list">
+    {% for record in records %}
+        
+            {# Use spaceless tag to remove spaces inside the A tag. #}
+            {% spaceless %}
+                {% if detailsPage %}
+                    <a href="{{ detailsPage|page({ (detailsUrlParameter): attribute(record, detailsKeyColumn) }) }}">
+                {% endif %}
+
+                {{ record.info|raw }}
+                    <div class="tg-widgettitle">
+                        <h3>Pesan Bijak</h3>
+                    </div>
+                    {{ record.pesan|raw }}
+
+                {% if detailsPage %}
+                    </a>
+                {% endif %}
+            {% endspaceless %}
+        
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</ul>
+
+{% if records.lastPage > 1 %}
+    <ul class="pagination">
+        {% if records.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage-1) }) }}">&larr; Prev</a></li>
+        {% endif %}
+
+        {% for page in 1..records.lastPage %}
+            <li class="{{ records.currentPage == page ? 'active' : null }}">
+                <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+            </li>
+        {% endfor %}
+
+        {% if records.lastPage > records.currentPage %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage+1) }) }}">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+{% endif %}
+        </div>
+    </aside>
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}s:11:"builderList";a:8:{s:10:"modelClass";s:28:"Inhuaschool\Home\Models\Home";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:4:"info";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

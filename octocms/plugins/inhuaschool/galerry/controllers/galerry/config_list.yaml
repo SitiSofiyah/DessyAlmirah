@@ -1,0 +1,12 @@
+list: $/inhuaschool/galerry/models/galerry/columns.yaml
+modelClass: Inhuaschool\Galerry\Models\Galerry
+title: Galerry
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'inhuaschool/galerry/galerry/update/:id'

@@ -1,0 +1,10 @@
+name: Home
+form: $/inhuaschool/home/models/home/fields.yaml
+modelClass: Inhuaschool\Home\Models\Home
+defaultRedirect: inhuaschool/home/home
+create:
+    redirect: 'inhuaschool/home/home/update/:id'
+    redirectClose: inhuaschool/home/home
+update:
+    redirect: inhuaschool/home/home
+    redirectClose: inhuaschool/home/home

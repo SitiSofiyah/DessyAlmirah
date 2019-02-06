@@ -1,0 +1,84 @@
+1549429663a:1:{s:12:"about-us.htm";a:9:{s:8:"fileName";s:12:"about-us.htm";s:7:"content";s:3058:"title = "About Us"
+url = "/about-us"
+layout = "default"
+is_hidden = 0
+==
+<!--************************************
+				Main Start
+		*************************************-->
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-sm-12">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-detailpage tg-newsdetailpage">
+                            <article class="tg-themepost tg-newspost">
+                                <div class="tg-themepostcontent">
+                                    <div class="tg-themeposttitle">
+                                        <h1>About Us</h1>
+                                    </div>
+                                </div>
+                                <figure class="tg-featuredimg"><img src="{{'assets/images/themepost/img-19.jpg'|theme}}" alt="image description"></figure>
+                                <div class="tg-description">
+                                    <p>ISEA (Inhuaschool Software Engineering Academic)</p>
+                                    <p>ISEA (Inhuaschool Software Engineering Academic) mempunyai latar belakang dari pengamatan terhadap pendidikan di Indonesia yang cukup memprihatinkan. Sekolah sangat mahal dan tidak mencetak skill yang memadai.</p>
+                                    <p>Inhuaschool sebenarnya suatu ungkapan dari pengamatan terhadap kondisi Mutu sekolah di Indonesia. Kondisi yang nyata dan bisa dirasakan Mutu menurun, Biaya semakin tinggi, Masih jauh dari Kompetensi, Padahal pendidikan adalah yang utama untuk menaikan nilai bangsa kita. Aturan-aturan pemerintah yang selalu berubah, kebijakan pendidikan yang tidak tetap apakah nanti bisa menjamin untuk naiknya nilai mutu pendidikan kita?.</p>
+                                    <p>Inhuaschool merupakan proyek pilot yang menerapkan PRAKTIS AKADEMIK berbasis teknologi. Yang berawal dari niat untuk maju setiap insan Indonesia ((istilah depdiknas :)) diawali dari "diri sendiri" untuk menciptakan "lingkungan kondusif proaktif" dengan "fasilitas komunitas".</p>
+                                    <p>Blueprint yang jelas, framework yang kuat, dan siswa yang berprofesi menjadi modal utama keberhasilan yang akan dicapai oleh Inhuaschool untuk model pendidikan yang JELAS karena blueprint jelas, KUALITAS karena framework handal, dan MURAH karena dibangun dari MOTIVASI siswa. Dengan manajemen dan perencanaan kerja yang strategis maka DI ATAS KERTAS DAN DI ATAS LAPANGAN (seperti tim bola) Inhuaschool akan menjadi komunitas belajar yang BESAR dan BERHASIL.</p>
+                                </div>
+                            </article>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:5:"mtime";i:1546844454;s:6:"markup";s:2980:"<!--************************************
+				Main Start
+		*************************************-->
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-sm-12">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-detailpage tg-newsdetailpage">
+                            <article class="tg-themepost tg-newspost">
+                                <div class="tg-themepostcontent">
+                                    <div class="tg-themeposttitle">
+                                        <h1>About Us</h1>
+                                    </div>
+                                </div>
+                                <figure class="tg-featuredimg"><img src="{{'assets/images/themepost/img-19.jpg'|theme}}" alt="image description"></figure>
+                                <div class="tg-description">
+                                    <p>ISEA (Inhuaschool Software Engineering Academic)</p>
+                                    <p>ISEA (Inhuaschool Software Engineering Academic) mempunyai latar belakang dari pengamatan terhadap pendidikan di Indonesia yang cukup memprihatinkan. Sekolah sangat mahal dan tidak mencetak skill yang memadai.</p>
+                                    <p>Inhuaschool sebenarnya suatu ungkapan dari pengamatan terhadap kondisi Mutu sekolah di Indonesia. Kondisi yang nyata dan bisa dirasakan Mutu menurun, Biaya semakin tinggi, Masih jauh dari Kompetensi, Padahal pendidikan adalah yang utama untuk menaikan nilai bangsa kita. Aturan-aturan pemerintah yang selalu berubah, kebijakan pendidikan yang tidak tetap apakah nanti bisa menjamin untuk naiknya nilai mutu pendidikan kita?.</p>
+                                    <p>Inhuaschool merupakan proyek pilot yang menerapkan PRAKTIS AKADEMIK berbasis teknologi. Yang berawal dari niat untuk maju setiap insan Indonesia ((istilah depdiknas :)) diawali dari "diri sendiri" untuk menciptakan "lingkungan kondusif proaktif" dengan "fasilitas komunitas".</p>
+                                    <p>Blueprint yang jelas, framework yang kuat, dan siswa yang berprofesi menjadi modal utama keberhasilan yang akan dicapai oleh Inhuaschool untuk model pendidikan yang JELAS karena blueprint jelas, KUALITAS karena framework handal, dan MURAH karena dibangun dari MOTIVASI siswa. Dengan manajemen dan perencanaan kerja yang strategis maka DI ATAS KERTAS DAN DI ATAS LAPANGAN (seperti tim bola) Inhuaschool akan menjadi komunitas belajar yang BESAR dan BERHASIL.</p>
+                                </div>
+                            </article>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:4:"code";N;s:5:"title";s:8:"About Us";s:3:"url";s:9:"/about-us";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,30 @@
+fields:
+    logo:
+        label: Logo
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    welcome:
+        label: welcome
+        size: tiny
+        span: auto
+        type: richeditor
+    layanan:
+        label: layanan
+        size: tiny
+        span: auto
+        type: richeditor
+    info:
+        label: info
+        size: tiny
+        span: auto
+        type: richeditor
+    pesan:
+        label: pesan
+        span: auto
+        size: tiny
+        type: richeditor

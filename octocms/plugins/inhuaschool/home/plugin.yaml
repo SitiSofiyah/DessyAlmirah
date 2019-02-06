@@ -1,0 +1,11 @@
+plugin:
+    name: 'inhuaschool.home::lang.plugin.name'
+    description: 'inhuaschool.home::lang.plugin.description'
+    author: inhuaschool
+    icon: oc-icon-home
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Home
+        url: /inhuaschool/home/home
+        icon: icon-home

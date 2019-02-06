@@ -1,0 +1,4 @@
+title: Galerry
+modelClass: Inhuaschool\Galerry\Models\Galerry
+toolbar:
+    buttons: reorder_toolbar

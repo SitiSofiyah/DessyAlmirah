@@ -1,0 +1,17 @@
+1548919459a:1:{s:14:"precontact.htm";a:7:{s:8:"fileName";s:14:"precontact.htm";s:7:"content";s:379:"[builderList]
+modelClass = "Briliantmax\Profil\Models\Profil"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "contact"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<h2 class="section-title text-center wow fadeInDown">Contact</h2>
+              
+                {% component 'builderList' %}";s:5:"mtime";i:1548918847;s:6:"markup";s:128:"<h2 class="section-title text-center wow fadeInDown">Contact</h2>
+              
+                {% component 'builderList' %}";s:4:"code";N;s:11:"builderList";a:8:{s:10:"modelClass";s:32:"Briliantmax\Profil\Models\Profil";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:7:"contact";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:12:"parsedMarkup";s:128:"<h2 class="section-title text-center wow fadeInDown">Contact</h2>
+              
+                {% component 'builderList' %}";}}

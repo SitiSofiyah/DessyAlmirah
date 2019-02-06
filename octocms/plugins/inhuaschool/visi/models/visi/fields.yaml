@@ -1,0 +1,26 @@
+fields:
+    visi:
+        label: 'Rich editor'
+        size: tiny
+        span: auto
+        type: richeditor
+    misi:
+        label: 'Rich editor'
+        size: tiny
+        span: auto
+        type: richeditor
+    sasaran:
+        label: 'Rich editor'
+        size: tiny
+        span: auto
+        type: richeditor
+    kompetensi:
+        label: 'Rich editor'
+        size: tiny
+        span: auto
+        type: richeditor
+    operational:
+        label: 'Rich editor'
+        span: auto
+        size: tiny
+        type: richeditor

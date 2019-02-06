@@ -1,0 +1,7 @@
+columns:
+    arti:
+        label: Arti
+        type: text
+    istilah:
+        label: Istilah
+        type: text
